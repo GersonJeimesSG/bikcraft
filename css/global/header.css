@@ -8,8 +8,11 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .header-menu {
@@ -21,9 +24,7 @@
 .header-menu a {
   display: inline-block;
   padding: 16px 0px;
-  
   position: relative;
-  
 }
 
 .header-menu a:after {
@@ -58,7 +59,7 @@
   }
 }
 
-@media (max-widht: 600px) {
+@media (max-width: 600px){
   .header-menu {
     gap: 12px;
   }
